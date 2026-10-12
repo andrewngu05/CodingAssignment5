@@ -72,7 +72,7 @@ h3 {
 .header {
     background-color: #b23a1e;
     color: #fdf1ea;
-    text-align: center;
+    text-align: left;
     border-radius: 12px 12px 0 0;
 }
 
@@ -99,9 +99,15 @@ h3 {
 .footer {
     background-color: #b23a1e;
     color: #fdf1ea;
-    text-align: right;
     font-size: 0.95rem;
     border-radius: 0 0 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: #ffd9a8;
 }
 
 .footer p {
